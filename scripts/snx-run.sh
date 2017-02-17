@@ -14,12 +14,8 @@ case $key in
     	LOGS="1"
     	shift # past argument
     ;;
-    -b|--browser)
-    	BROWSER="1"
-    	shift # past argument
-    ;;
     -h|--help)
-	echo "Usage: --logs (shows docker logs after run) --browser (runs browser pointing to socks5)"
+	echo "Usage: --logs (shows docker logs after run)"
 	exit 0
     ;;
     *)
